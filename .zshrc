@@ -97,10 +97,11 @@ alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias salt='cd ~/salt-developer'
 alias sublime='open -a "Sublime Text"'
-alias nuclide='open -a Atom'
 alias vscode='open -a "Visual Studio Code"'
+alias nuclide='open -a Atom'
 alias fork='open -a Fork'
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
