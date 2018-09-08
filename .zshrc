@@ -112,3 +112,30 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 # Salt Developer Scripts
 export PATH=$PATH:/Users/fknussel/salt-developer/scripts
+
+# Go To Projects
+_goTo() {
+    if [ $1 = "questions" ]; then
+        cd ~/salt-developer/code/api/questionsV2/
+    elif [ $1 = "assess" ]; then
+        cd ~/salt-developer/code/api/assess/
+    elif [ $1 = "annotations" ]; then
+        cd ~/salt-developer/code/api/annotations/
+    elif [ $1 = "items" ]; then
+        cd ~/salt-developer/code/api/items/
+    elif [ $1 = "qe" ]; then
+        cd ~/salt-developer/code/api/questioneditor/
+    elif [ $1 = "schemas" ]; then
+        cd ~/salt-developer/code/api/schemas/
+    elif [ $1 = "docs" ]; then
+        cd ~/salt-developer/code/site/docs/
+    elif [ $1 = "demos" ]; then
+        cd ~/salt-developer/code/site/demos/
+    elif [ $1 = "scoring" ]; then
+        cd ~/salt-developer/code/api/questionsV2/www/latest/vendor/scoring/
+    elif [ $1 = "salt" ]; then
+        cd ~/salt-developer/
+    fi
+}
+
+alias goto='_goTo'
