@@ -63,6 +63,10 @@ _goToSalt() {
         cd ~/salt-developer/code/site/demos/
     elif [ $1 = "scoring" ]; then
         cd ~/salt-developer/code/api/questionsV2/www/latest/vendor/scoring/
+    elif [ $1 = "up" ]; then
+        cd ~/salt-developer/ && vagrant up
+    elif [ $1 = "halt" ]; then
+        cd ~/salt-developer/ && vagrant halt -f
     else
         cd ~/salt-developer/
     fi
