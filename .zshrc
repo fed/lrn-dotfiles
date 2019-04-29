@@ -18,13 +18,13 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias sublime='open -a "Sublime Text"'
-alias vscode='open -a "Visual Studio Code"'
-alias fork='open -a Fork'
+alias merge='open -a "Sublime Merge"'
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
@@ -37,6 +37,9 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 # Salt Developer Scripts
 export PATH=$PATH:/Users/fknussel/salt-developer/scripts
+
+# Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
 
 # Switch between projects
 _goToSalt() {
@@ -60,8 +63,12 @@ _goToSalt() {
         cd ~/salt-developer/code/site/docs/
     elif [ $1 = "demos" ]; then
         cd ~/salt-developer/code/site/demos/
+    elif [ $1 = "reference" ]; then
+        cd ~/salt-developer/code/site/reference/
+    elif [ $1 = "labs" ]; then
+        cd ~/salt-developer/code/site/labs/
     elif [ $1 = "scoring" ]; then
-        cd ~/salt-developer/code/api/questionsV2/www/latest/vendor/scoring/
+        cd ~/salt-developer/code/lib/scoring/
     elif [ $1 = "up" ]; then
         cd ~/salt-developer/ && vagrant up
     elif [ $1 = "halt" ]; then
