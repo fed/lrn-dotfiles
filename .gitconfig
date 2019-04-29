@@ -36,8 +36,6 @@
   autosetuprebase = always
 [branch "develop"]
   rebase = true
-[branch "V2-develop"]
-  rebase = true
 [branch "master"]
   rebase = true
 [diff]
@@ -58,3 +56,7 @@
   suffix = -rc
 [commit]
   template = /Users/fknussel/.stCommitMsg
+[branch "V2-develop"]
+  rebase = true
+[github]
+  user = fknussel
