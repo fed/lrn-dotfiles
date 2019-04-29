@@ -1,5 +1,5 @@
 {
-	"auto_format_on_save": false,
+	"auto_format_on_save": true,
 	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 	"folder_exclude_patterns":
 	[
@@ -12,7 +12,7 @@
 		"coverage",
 		"test-results"
 	],
-	"font_size": 17,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -27,7 +27,7 @@
 		120
 	],
 	"tab_size": 4,
-	"theme": "Oceanic Next.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
