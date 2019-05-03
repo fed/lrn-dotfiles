@@ -1,7 +1,19 @@
 [
-    // Toggle sidebar
-    { "keys": ["super+\\"], "command": "toggle_side_bar" },
+    // Toggle the Sidebar
+    {
+        "keys": ["super+\\"],
+        "command": "toggle_side_bar"
+    },
 
     // Reveal current file on the sidebar tree
-    { "keys": ["super+shift+\\"], "command": "reveal_in_side_bar" },
+    {
+        "keys": ["super+shift+\\"],
+        "command": "reveal_in_side_bar"
+    },
+
+    // Open in Sublime Merge
+    {
+        "keys": ["super+alt+m"],
+        "command": "sublime_merge_open_repo"
+    }
 ]
