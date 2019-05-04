@@ -4,18 +4,8 @@
 [push]
   default = current
 [alias]
-  co = checkout
-  br = branch
-  st = status
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(green)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset' --abbrev-commit --date=relative
-  wc = !git whatchanged
-  wcp = !git whatchanged -p
-  d = diff
-  dc = diff --cached
-  lol = log --graph --decorate --pretty --oneline --abbrev-commit
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   delete-merged-branches = "!f() { git checkout --quiet develop && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
-  logtree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [core]
   excludesfile = /Users/fknussel/.gitignore
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
