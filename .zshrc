@@ -23,6 +23,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
+alias vscode='open -a "Visual Studio Code"'
 alias sublime='open -a "Sublime Text"'
 alias merge='open -a "Sublime Merge"'
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
@@ -57,6 +58,8 @@ _goToSalt() {
         cd ~/salt-developer/code/api/items/
     elif [ $1 = "qe" ]; then
         cd ~/salt-developer/code/api/questioneditor/
+    elif [ $1 = "author" ]; then
+        cd ~/salt-developer/code/api/author/
     elif [ $1 = "schemas" ]; then
         cd ~/salt-developer/code/api/schemas/
     elif [ $1 = "docs" ]; then
