@@ -1,0 +1,153 @@
+Name: Auto Close Tag
+Id: formulahendry.auto-close-tag
+Description: Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
+Version: 0.5.6
+Publisher: Jun Han
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+
+Name: Auto Complete Tag
+Id: formulahendry.auto-complete-tag
+Description: Extension Packs to add close tag and rename paired tag automatically for HTML/XML
+Version: 0.1.0
+Publisher: Jun Han
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag
+
+Name: Auto Rename Tag
+Id: formulahendry.auto-rename-tag
+Description: Auto rename paired HTML/XML tag
+Version: 0.1.0
+Publisher: Jun Han
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+
+Name: CSS Modules
+Id: clinyong.vscode-css-modules
+Description: Visual Studio Code extension for CSS Modules
+Version: 0.2.3
+Publisher: clinyong
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules
+
+Name: Debugger for Chrome
+Id: msjsdiag.debugger-for-chrome
+Description: Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol.
+Version: 4.11.6
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+
+Name: EditorConfig for VS Code
+Id: editorconfig.editorconfig
+Description: EditorConfig Support for Visual Studio Code
+Version: 0.13.0
+Publisher: EditorConfig
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+Name: ESLint
+Id: dbaeumer.vscode-eslint
+Description: Integrates ESLint JavaScript into VS Code.
+Version: 1.9.0
+Publisher: Dirk Baeumer
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+Name: Flow Language Support
+Id: flowtype.flow-for-vscode
+Description: Flow support for VS Code
+Version: 1.2.0
+Publisher: flowtype
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode
+
+Name: Git Blame
+Id: waderyan.gitblame
+Description: See git blame information in the status bar.
+Version: 3.0.0
+Publisher: Wade Anderson
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame
+
+Name: Git History
+Id: donjayamanne.githistory
+Description: View git log, file history, compare branches or commits
+Version: 0.4.6
+Publisher: Don Jayamanne
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
+
+Name: npm Intellisense
+Id: christian-kohler.npm-intellisense
+Description: Visual Studio Code plugin that autocompletes npm modules in import statements
+Version: 1.3.0
+Publisher: Christian Kohler
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+
+Name: Oceanic Next (Sublime Babel)
+Id: gnhuy91.theme-oceanicnext-sublime
+Description: Adjusted (less contrast) Oceanic Next theme with ES6/Babel support.
+Version: 1.2.1
+Publisher: huygn
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=gnhuy91.theme-oceanicnext-sublime
+
+Name: Oceanic Next Sublime
+Id: aytee17.vscode-oceanic-next-sublime
+Description: Oceanic Next theme for VS Code with a dash of Sublime
+Version: 0.0.21
+Publisher: aytee17
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=aytee17.vscode-oceanic-next-sublime
+
+Name: Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !
+Id: ziyasal.vscode-open-in-github
+Description: Jump to a source code line in Github, Bitbucket, Gitlab, VisualStudio.com !
+Version: 1.3.6
+Publisher: ziyasal
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github
+
+Name: Path Autocomplete
+Id: ionutvmi.path-autocomplete
+Description: Provides path completion for visual studio code.
+Version: 1.13.3
+Publisher: Mihai Vilcu
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete
+
+Name: Path Intellisense
+Id: christian-kohler.path-intellisense
+Description: Visual Studio Code plugin that autocompletes filenames
+Version: 1.4.2
+Publisher: Christian Kohler
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+
+Name: Prettier - Code formatter
+Id: esbenp.prettier-vscode
+Description: VS Code plugin for prettier/prettier
+Version: 1.9.0
+Publisher: Esben Petersen
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+Name: Project Manager
+Id: alefragnani.project-manager
+Description: Easily switch between projects
+Version: 10.6.0
+Publisher: Alessandro Fragnani
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
+
+Name: Rainbow Brackets
+Id: 2gua.rainbow-brackets
+Description: A rainbow brackets extension for VS Code.
+Version: 0.0.6
+Publisher: 2gua
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
+
+Name: Sublime Text Keymap and Settings Importer
+Id: ms-vscode.sublime-keybindings
+Description: Import Sublime Text settings and keybindings into VS Code.
+Version: 4.0.3
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings
+
+Name: Visual Studio IntelliCode
+Id: visualstudioexptteam.vscodeintellicode
+Description: AI-assisted development
+Version: 1.1.8
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+
+Name: vscode-styled-components
+Id: jpoissonnier.vscode-styled-components
+Description: Syntax highlighting for styled-components
+Version: 0.0.26
+Publisher: Julien Poissonnier
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components
