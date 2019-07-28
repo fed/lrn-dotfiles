@@ -19,6 +19,13 @@ Version: 0.1.0
 Publisher: Jun Han
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
 
+Name: Bluloco Light
+Id: uloco.theme-bluloco-light
+Description: A fancy but yet sophisticated light designer color scheme / theme.
+Version: 2.8.1
+Publisher: Umut Topuzoğlu
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light
+
 Name: CSS Modules
 Id: clinyong.vscode-css-modules
 Description: Visual Studio Code extension for CSS Modules
