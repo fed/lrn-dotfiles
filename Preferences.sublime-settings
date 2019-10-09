@@ -1,5 +1,6 @@
 {
 	"auto_format_on_save": true,
+	"caret_extra_width": 12,
 	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 	"folder_exclude_patterns":
 	[
@@ -30,5 +31,6 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
 	"word_wrap": true
 }
