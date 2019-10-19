@@ -1,56 +1,79 @@
 {
-    // Editor appearance
-    "editor.fontSize": 17,
+    // Editor appearance and theme
+    "editor.fontSize": 18,
     "editor.lineHeight": 28,
+    "workbench.colorTheme": "Oceanic Next Sublime + Sweet Bar",
+    "workbench.iconTheme": "file-icons",
+
     // Block blinking cursor
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "phase",
+
     // Hide minimap
     "editor.minimap.enabled": false,
+
     // Disallow scrolling past the last line
     "editor.scrollBeyondLastLine": false,
+
     // Max line width
     "editor.wordWrap": "on",
-    "editor.rulers": [120],
+    "editor.rulers": [
+        100,
+        120
+    ],
+
     // Hide color picker/decorator on CSS files
     "editor.colorDecorators": false,
+
     // Start off with an empty window
     "workbench.startupEditor": "newUntitledFile",
+
     // Hide the "open editors" left pane
     "explorer.openEditors.visible": 0,
+
     // Disable confirmation when moving things around in the explorer panel
     "explorer.confirmDragAndDrop": false,
+
     // EditorConfig-like settings
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+
     // Flow support
     "flow.useNPMPackagedFlow": true,
     "javascript.validate.enable": false,
+
     // Prettier
     "prettier.singleQuote": true,
-    "prettier.printWidth": 120,
-    "prettier.disableLanguages": ["html", "json", "markdown"],
-    // If you’re using ESLint, force Prettier to format your code based on your .eslintrc.json
-    "prettier.eslintIntegration": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "window.zoomLevel": 0,
+    "prettier.printWidth": 100,
+    "prettier.disableLanguages": [
+        "html",
+        "json",
+        "markdown"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Disable automatically update import statements when moving files around
+    "javascript.updateImportsOnFileMove.enabled": "never",
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": true,
+
+    // Project Manager extension settings
     "projectManager.git.baseFolders": [
         "/Users/fknussel/salt-developer/code",
         "/Users/fknussel/workspace"
     ],
     "projectManager.showProjectNameInStatusBar": true,
     "projectManager.openInNewWindowWhenClickingInStatusBar": true,
-    // Full file path on title bar
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    // Breadcrumbs
-    "breadcrumbs.enabled": true,
-    "editor.tabSize": 4,
+
+    // Misc settings
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Oceanic Next Sublime + Sweet Bar",
     "editor.accessibilitySupport": "off",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
-    // "workbench.colorCustomizations": {
-    //     "editor.background": "#282c35"
-    // }
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0
 }
