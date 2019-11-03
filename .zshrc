@@ -150,6 +150,8 @@ _goToSalt() {
         cd ~/salt-developer/ && vagrant up
     elif [ $1 = "halt" ]; then
         cd ~/salt-developer/ && vagrant halt -f
+    elif [ $1 = "status" ]; then
+        cd ~/salt-developer/ && vagrant status
     else
         cd ~/salt-developer/
     fi
